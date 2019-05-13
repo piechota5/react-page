@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 
-class About extends Component{
+class Gallery extends Component{
     render() {
         return(
             <div>
-                Tu bedzie about us page
+                Tu bedzie gallery page
             </div>
         )
     }
 }
 
-export default About;
+export default Gallery;
