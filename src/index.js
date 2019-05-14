@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 import { Route , Link , BrowserRouter as Router} from 'react-router-dom';
+import { Preloader, Placeholder } from 'react-preloading-screen';
 
 import './index.scss';
 
@@ -14,37 +15,44 @@ import Intentions from './Components/pages/Intentions';
 import Notfound from './Components/pages/Notfound';
 
 const routing = (
-    <Router>
-        <div>
-            <ul>
-                <li>
-                    <Link to="/">Home</Link>
-                </li>
-                <li>
-                    <Link to="/about-us">About</Link>
-                </li>
-                <li>
-                    <Link to="/ads">Ads</Link>
-                </li>
-                <li>
-                    <Link to="/contact">Contact</Link>
-                </li>
-                <li>
-                    <Link to="/gallery">Gallery</Link>
-                </li>
-                <li>
-                    <Link to="/intentions">Intentions</Link>
-                </li>
-            </ul>
-            <Route exact path="/" component={App}  />
-            <Route path="/about-us" component={About} />
-            <Route path="/ads" component={Ads} />
-            <Route path="/contact" component={Contact} />
-            <Route path="/gallery" component={Gallery} />
-            <Route path="/intentions" component={Intentions} />
-            <Route component={Notfound} />
-        </div>
-    </Router>
+    <Preloader>
+        <Router>
+            <div>
+                <ul>
+                    <li>
+                        <Link to="/">Home</Link>
+                    </li>
+                    <li>
+                        <Link to="/about-us">About</Link>
+                    </li>
+                    <li>
+                        <Link to="/ads">Ads</Link>
+                    </li>
+                    <li>
+                        <Link to="/contact">Contact</Link>
+                    </li>
+                    <li>
+                        <Link to="/gallery">Gallery</Link>
+                    </li>
+                    <li>
+                        <Link to="/intentions">Intentions</Link>
+                    </li>
+                </ul>
+                <Route exact path="/" component={App}  />
+                <Route path="/about-us" component={About} />
+                <Route path="/ads" component={Ads} />
+                <Route path="/contact" component={Contact} />
+                <Route path="/gallery" component={Gallery} />
+                <Route path="/intentions" component={Intentions} />
+                <Route component={Notfound} />
+            </div>
+        </Router>
+        <Placeholder>
+            <div id="loader-wrapper">
+                <div id="loader"></div>
+            </div>
+        </Placeholder>
+    </Preloader>
 );
 
 
