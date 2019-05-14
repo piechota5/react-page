@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
-import { Route , Link , BrowserRouter as Router} from 'react-router-dom';
+import { Route , Link , BrowserRouter as Router, Switch} from 'react-router-dom';
 import { Preloader, Placeholder } from 'react-preloading-screen';
 
 import './index.scss';
@@ -38,13 +38,16 @@ const routing = (
                         <Link to="/intentions">Intentions</Link>
                     </li>
                 </ul>
-                <Route exact path="/" component={App}  />
-                <Route path="/about-us" component={About} />
-                <Route path="/ads" component={Ads} />
-                <Route path="/contact" component={Contact} />
-                <Route path="/gallery" component={Gallery} />
-                <Route path="/intentions" component={Intentions} />
-                <Route component={Notfound} />
+
+                <Switch>
+                    <Route exact path="/" component={App}  />
+                    <Route path="/about-us" component={About} />
+                    <Route path="/ads" component={Ads} />
+                    <Route path="/contact" component={Contact} />
+                    <Route path="/gallery" component={Gallery} />
+                    <Route path="/intentions" component={Intentions} />
+                    <Route component={Notfound} />
+                </Switch>
             </div>
         </Router>
         <Placeholder>
