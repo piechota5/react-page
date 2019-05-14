@@ -2,6 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 import { Route , Link , BrowserRouter as Router} from 'react-router-dom';
+
+import './index.scss';
+
 import App from './App';
 import About from './Components/pages/About';
 import Ads from './Components/pages/Ads';
