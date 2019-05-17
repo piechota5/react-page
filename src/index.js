@@ -4,9 +4,10 @@ import * as serviceWorker from './serviceWorker';
 import { Route , Link , BrowserRouter as Router, Switch} from 'react-router-dom';
 import { Preloader, Placeholder } from 'react-preloading-screen';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.scss';
 
-import App from './App';
+import App from './Components/pages/App';
 import About from './Components/pages/About';
 import Ads from './Components/pages/Ads';
 import Contact from './Components/pages/Contact';
@@ -15,27 +16,28 @@ import Intentions from './Components/pages/Intentions';
 import Notfound from './Components/pages/Notfound';
 
 const routing = (
-    <Preloader>
-        <Router>
-            <div>
-                <ul>
-                    <li>
-                        <Link to="/">Home</Link>
+    <main>
+        <nav className="nav">
+        <Preloader>
+            <Router>
+                <ul className="nav__list">
+                    <li className="nav__item">
+                        <Link className="nav__anchor" to="/">Strona główna</Link>
                     </li>
-                    <li>
-                        <Link to="/about-us">About</Link>
+                    <li className="nav__item">
+                        <Link className="nav__anchor" to="/about-us">O nas</Link>
                     </li>
-                    <li>
-                        <Link to="/ads">Ads</Link>
+                    <li className="nav__item">
+                        <Link className="nav__anchor" to="/ads">Ogłoszenia</Link>
                     </li>
-                    <li>
-                        <Link to="/contact">Contact</Link>
+                    <li className="nav__item">
+                        <Link className="nav__anchor" to="/intentions">Intencje</Link>
                     </li>
-                    <li>
-                        <Link to="/gallery">Gallery</Link>
+                    <li className="nav__item">
+                        <Link className="nav__anchor" to="/gallery">Galeria</Link>
                     </li>
-                    <li>
-                        <Link to="/intentions">Intentions</Link>
+                    <li className="nav__item">
+                        <Link className="nav__anchor" to="/contact">Kontakt</Link>
                     </li>
                 </ul>
 
@@ -48,14 +50,15 @@ const routing = (
                     <Route path="/intentions" component={Intentions} />
                     <Route component={Notfound} />
                 </Switch>
-            </div>
-        </Router>
-        <Placeholder>
-            <div id="loader-wrapper">
-                <div id="loader"></div>
-            </div>
-        </Placeholder>
-    </Preloader>
+            </Router>
+            <Placeholder>
+                <div id="loader-wrapper">
+                    <div id="loader"></div>
+                </div>
+            </Placeholder>
+        </Preloader>
+    </nav>
+    </main>
 );
 
 

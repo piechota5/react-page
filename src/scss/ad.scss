@@ -1,0 +1,160 @@
+.offer{
+  width: 100%;
+  padding: 80px 0 95px;
+  background-color: $main-color;
+  position: relative;
+
+  &--invest{
+    margin: 4px 0 0;
+  }
+
+  &__top-panel{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 20px;
+
+    &__texts{
+      display: flex;
+    }
+
+    &__title{
+      position: relative;
+      padding: 0 45px 0 0;
+
+      &:after{
+        position: absolute;
+        content: "";
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 1px;
+        background-color: #fff;
+      }
+    }
+
+    &__description{
+      color: #fff;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.44;
+      margin: 0 0 0 65px;
+      max-width: 550px;
+    }
+  }
+
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+    margin: 90px 0 0;
+  }
+}
+
+.single-offer{
+  max-width: 390px;
+  margin: 0 10px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: #fff;
+
+  &__top{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 43px 35px 32px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom: 1px solid $border-color;
+  }
+
+  &__content{
+    margin: 0 10px 0 0;
+  }
+
+  &__image{
+    img{
+      width: 50px;
+    }
+  }
+
+  &__description{
+    font-size: 15px;
+    line-height: 1.33;
+    color: $main-color;
+    margin: 15px 0 0;
+  }
+
+  &__main{
+    background-color: #fff;
+    padding: 10px 0 17px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+
+  &__row{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid $border-color;
+    padding: 15px 0;
+    height: 80px;
+  }
+
+  &__tick{
+    margin: 0 0 0 30px;
+  }
+
+  &__label{
+    padding: 0 30px 0 20px;
+    line-height: 22px;
+    font-size: 15px;
+    color: $border-color;
+  }
+
+  &__button{
+    margin: 65px 0 30px;
+
+    &--third{
+      margin: 20px 0 30px;
+    }
+
+    &--fifth{
+      margin: 18px 0 30px;
+    }
+
+    &--sixth{
+      margin: 0 0 30px;
+    }
+  }
+
+  &__note{
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+
+    &__icon{
+      img{
+        width: 17px;
+        height: 17px;
+      }
+    }
+
+    &__label{
+      color: #a5b4bb;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 12px;
+      margin: 0 0 0 10px;
+    }
+  }
+
+  &__more{
+    font-size: 12px;
+    color: $border-color;
+    margin: 0 auto 35px;
+    max-width: 260px;
+
+    &--sixth{
+      margin: 10px auto 32px;
+    }
+  }
+}
