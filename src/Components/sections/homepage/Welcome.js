@@ -22,7 +22,7 @@ class Welcome extends Component{
                             <p className="welcome__description">
                                 „Na początku XIX wieku, było tu tylko pole. Wieś o nazwie Charsznica była położona dwa kilometry na zachód, była dużą wsią położoną w błotnistej wówczas kotlinie.
                                 Z czasem gospodarstwa wsi, szczególnie na skutek komasacji, zostały przeniesione na pola okolicz­ne. Ziemia ta, gdzie mieści się osiedle Charsznica, należała do dworu, który był własnością dziedzica A. Bojarskiego..."
-                                „W pierwszych latach swego istnienia stacja leżała wśród gołych pól obok pól folwarku Chodów i folwarku Ciszówka."
+                                „W pierwszych latach swego istnienia stacja leżała wśród gołych pól obok pól folwarku Chodów i folwarku Ciszówka." [...]
                             </p>
                             <div className="welcome__anchor">
                                 {/*<Router>*/}

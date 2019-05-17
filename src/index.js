@@ -25,7 +25,7 @@ const routing = (
                         <Link className="nav__anchor" to="/">Strona główna</Link>
                     </li>
                     <li className="nav__item">
-                        <Link className="nav__anchor" to="/about-us">O nas</Link>
+                        <Link className="nav__anchor" to="/about-us">O Parafii</Link>
                     </li>
                     <li className="nav__item">
                         <Link className="nav__anchor" to="/ads">Ogłoszenia</Link>

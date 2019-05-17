@@ -2,6 +2,7 @@ import React, {Component, Fragment} from 'react';
 import Counter from '../sections/homepage/Counter'
 import Welcome from "../sections/homepage/Welcome";
 import Ad from "../sections/homepage/Ad";
+import Intention from "../sections/homepage/Intention";
 
 class App extends Component {
   render() {
@@ -23,6 +24,7 @@ class App extends Component {
               <Counter />
               <Welcome/>
               <Ad/>
+              <Intention />
           </Fragment>
       )
   }
