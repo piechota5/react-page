@@ -1,0 +1,108 @@
+.sermon{
+  padding: 100px 0;
+  background-color: $lightest-bg;
+  width: 100%;
+
+  &__wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0 0;
+  }
+
+  &__inner{
+    display: flex;
+    //margin: 0 0 30px;
+    align-items: center;
+    background-color: #fff;
+  }
+
+  &__left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__image{
+
+    img{
+      width: 300px;
+      height: 250px;
+      display: block;
+    }
+  }
+
+  &__texts{
+    padding: 30px;
+  }
+
+  &__header{
+    color: #000;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0 0 20px;
+  }
+
+  &__date{
+    color: $light-grey;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+
+    svg{
+      font-size: 20px;
+      margin: 0 20px 0 0;
+    }
+  }
+
+  &__subtitle{
+    margin: 0 0 20px 40px;
+  }
+}
+
+.sermon__right{
+  max-width: 380px;
+  padding: 30px;
+  background-color: $main-color;
+
+  &__title{
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0 0 30px;
+  }
+
+  &__image{
+
+    img{
+      max-width: 100%;
+    }
+  }
+
+  &__content{
+    color: #fff;
+    margin: 30px 0 0;
+  }
+
+  &__single{
+    margin: 0 0 30px;
+  }
+
+  &__header{
+    font-weight: 500;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+
+    svg{
+      margin: 0 20px 0 0;
+    }
+  }
+
+  &__date{
+    margin: 20px 0;
+    font-style: italic;
+    text-align: justify;
+  }
+}

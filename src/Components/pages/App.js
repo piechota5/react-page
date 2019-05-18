@@ -4,6 +4,7 @@ import Welcome from "../sections/homepage/Welcome";
 import Ad from "../sections/homepage/Ad";
 import Intention from "../sections/homepage/Intention";
 import Panels from "../sections/homepage/Panels";
+import Sermon from "../sections/homepage/Sermon";
 
 class App extends Component {
   render() {
@@ -27,6 +28,7 @@ class App extends Component {
               <Ad/>
               <Intention />
               <Panels />
+              <Sermon />
           </Fragment>
       )
   }
