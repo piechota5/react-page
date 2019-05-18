@@ -1,0 +1,45 @@
+.ads{
+  width: 100%;
+  padding: 120px 0;
+  background-color: $lightest-bg;
+  text-align: justify;
+
+  &__main-title{
+    margin: 0 0 60px;
+  }
+
+  &__subtitle{
+    font-size: 28px;
+    color: #000;
+    text-decoration: underline;
+    padding: 0 0 10px;
+    margin: 0 0 30px;
+  }
+
+  &__content{
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 0 30px;
+    text-align: justify;
+  }
+
+  li{
+    padding: 0 0 0 15px;
+    position: relative;
+    margin: 0 0 0 20px;
+
+    &:before{
+      position: absolute;
+      content: "";
+      height: 4px;
+      width: 4px;
+      background-color: #000;
+      top: 12px;
+      left: 0;
+    }
+  }
+
+  strong{
+    font-weight: 700;
+  }
+}

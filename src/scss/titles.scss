@@ -3,7 +3,11 @@
   font-size: 60px;
   line-height: 1.2;
   font-weight: 500;
-  font-style: italic;
+
+  &--black{
+    color: #000;
+    font-weight: 700;
+  }
 }
 
 .section-title{
