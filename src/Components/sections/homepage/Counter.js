@@ -3,11 +3,35 @@ import {FaCalendarAlt} from 'react-icons/fa';
 
 class Counter extends Component{
 
-    componentDidMount() {
-        this.setCounter()
+    constructor(props){
+        super(props);
+
+        this.state = {
+          isCounter : false
+        };
+
+        this.setCounter = this.setCounter.bind(this);
     }
 
-    setCounter = () => {
+    componentWillMount() {
+        this.setState({
+            isCounter : true
+        });
+    }
+
+    componentDidMount() {
+        if(this.state.isCounter === true) {
+            this.setCounter()
+        }
+    }
+
+    componentWillUnmount(){
+        this.setState({
+            isCounter : false
+        })
+    }
+
+    setCounter() {
         let countDownDate = new Date("Dec 24, 2019, 0:00:00").getTime();
 
         setInterval(function() {
@@ -28,11 +52,9 @@ class Counter extends Component{
             document.querySelector('.counter__number--minutes').innerHTML = minutes;
             document.querySelector('.counter__number--seconds').innerHTML = seconds;
         }, 1000);
-    }
-
+    };
 
     render() {
-
         return(
             <section className="counter">
                 <div className="row">

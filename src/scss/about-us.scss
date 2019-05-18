@@ -1,0 +1,34 @@
+.about-us{
+  padding: 100px 0;
+  width: 100%;
+  background-color: $lightest-bg;
+  text-align: justify;
+
+  &__main-title{
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 80px;
+  }
+
+  &__content{
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 0 30px;
+    text-align: justify;
+  }
+
+  &__priest{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0 0 30px;
+  }
+
+  &__address{
+    font-weight: 700;
+    line-height: 26px;
+    font-size: 20px;
+  }
+}
