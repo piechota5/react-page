@@ -3,8 +3,6 @@ import chapel from '../../../img/kaplica.jpg';
 import { Link } from 'react-router-dom';
 
 
-
-
 class Welcome extends Component{
     render() {
         return(
