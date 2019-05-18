@@ -5,6 +5,7 @@ import Ad from "../sections/homepage/Ad";
 import Intention from "../sections/homepage/Intention";
 import Panels from "../sections/homepage/Panels";
 import Sermon from "../sections/homepage/Sermon";
+import Copyright from "../sections/homepage/Copyright";
 
 class App extends Component {
   render() {
@@ -29,6 +30,7 @@ class App extends Component {
               <Intention />
               <Panels />
               <Sermon />
+              <Copyright />
           </Fragment>
       )
   }
