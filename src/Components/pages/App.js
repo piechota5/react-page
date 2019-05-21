@@ -7,7 +7,13 @@ import Panels from "../sections/homepage/Panels";
 import Sermon from "../sections/homepage/Sermon";
 import Copyright from "../sections/homepage/Copyright";
 
+import firebase from '../db/Database';
+
+
+
 class App extends Component {
+
+
   render() {
       return(
           <Fragment>

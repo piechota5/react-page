@@ -15,6 +15,8 @@ import Gallery from './Components/pages/Gallery';
 import Intentions from './Components/pages/Intentions';
 import Notfound from './Components/pages/Notfound';
 
+
+
 const routing = (
     <main>
         <nav className="nav">
