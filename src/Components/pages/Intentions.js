@@ -5,6 +5,10 @@ class Intentions extends Component{
     render() {
         return(
             <>
+            <div className="hero hero--intentions">
+                <h1 className="hero__title">Intencje Mszalne</h1>
+                <span className="hero__overlay"></span>
+            </div>
             <section className="intentions">
                 <div className="container">
                     <h1 className="main-title main-title--black intentions__title text-center ">

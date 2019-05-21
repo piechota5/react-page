@@ -1,0 +1,41 @@
+.hero{
+  padding: 250px 0;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  background-image: url('./img/hero-section.jpg');
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+
+  &--intentions{
+    background-image: url("./img/intentions-bg.jpg");
+  }
+
+  &--ads{
+    background-image: url("./img/ads-bg.jpg");
+  }
+
+  &--about{
+    background-image: url("./img/about-bg.jpg");
+  }
+
+  &__title{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 68px;
+    font-weight: 700;
+    position: relative;
+    z-index: 1;
+  }
+
+  &__overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    content: "";
+    background-color: rgba(0,0,0,0.1);
+  }
+}

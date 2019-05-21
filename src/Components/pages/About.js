@@ -5,6 +5,10 @@ class About extends Component{
     render() {
         return(
             <>
+            <div className="hero hero--about">
+                <h1 className="hero__title">O parafii</h1>
+                <span className="hero__overlay"></span>
+            </div>
             <section className="about-us">
                 <div className="container">
                     <h1 className="about-us__main-title">

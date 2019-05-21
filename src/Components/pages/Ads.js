@@ -6,6 +6,10 @@ class Ads extends Component{
     render() {
         return(
             <>
+                <div className="hero hero--ads">
+                    <h1 className="hero__title">Ogłoszenia</h1>
+                    <span className="hero__overlay"></span>
+                </div>
                 <section className="ads">
                     <div className="container">
 
