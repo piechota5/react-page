@@ -47,10 +47,15 @@ class Counter extends Component{
             let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
             let seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
+            if(document.querySelector('.counter__number--days') === null){
+                return;
+            }
+
             document.querySelector('.counter__number--days').innerHTML = days;
             document.querySelector('.counter__number--hours').innerHTML = hours;
             document.querySelector('.counter__number--minutes').innerHTML = minutes;
             document.querySelector('.counter__number--seconds').innerHTML = seconds;
+
         }, 1000);
     };
 
