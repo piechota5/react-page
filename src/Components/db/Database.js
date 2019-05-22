@@ -3,13 +3,13 @@ import 'firebase/database';
 import 'firebase/auth';
 
 const config = {
-    apiKey: "AIzaSyBwJpz2Z0j89XO0-8u1q1mvEDYcP15pz7A",
-    authDomain: "tpiehchowicz.firebaseapp.com",
-    databaseURL: "https://tpiehchowicz.firebaseio.com",
-    projectId: "tpiehchowicz",
-    storageBucket: "tpiehchowicz.appspot.com",
-    messagingSenderId: "485574794249",
-    appId: "1:485574794249:web:6125982bdfea11de"
+    apiKey: "AIzaSyB0Z1eaBQL4cBI29xw6XuqxIjXw11oscOI",
+    authDomain: "reactform-9945b.firebaseapp.com",
+    databaseURL: "https://reactform-9945b.firebaseio.com",
+    projectId: "reactform-9945b",
+    storageBucket: "reactform-9945b.appspot.com",
+    messagingSenderId: "1010319751392",
+    appId: "1:1010319751392:web:12275c9d9bdfaa9f"
 };
 
 firebase.initializeApp(config);

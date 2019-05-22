@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="702e2354-c060-4d0c-8ed0-63f74849fed4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/img/gallery/abbey-1160492_640.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/gallery/church-1081718_640.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/gallery/church-3284639_640.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/gallery/church-window-2217785_640.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/gallery/cloister-2041063_640.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/gallery/cross-2713356_640.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/gallery/cross-671379_640.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/gallery/monastery-4169566_640.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/gallery/panorama-1993645_640.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/gallery/sacre-coeur-102110_640.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/gallery.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/pages/Gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/pages/Gallery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/sections/homepage/Ad.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/sections/homepage/Ad.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/sections/homepage/Counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/sections/homepage/Counter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/db/Database.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/db/Database.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +19,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/pages/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
+            <state relative-caret-position="23">
               <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
@@ -42,11 +28,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/pages/Gallery.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="-44">
+              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Components/db/Database.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scss/gallery.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="299">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -63,7 +64,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
+            <state relative-caret-position="230">
               <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
             </state>
           </provider>
@@ -143,7 +144,6 @@
         <option value="$PROJECT_DIR$/src/scss/ads.scss" />
         <option value="$PROJECT_DIR$/src/scss/header.scss" />
         <option value="$PROJECT_DIR$/src/Components/pages/server/index.js" />
-        <option value="$PROJECT_DIR$/src/Components/db/Database.js" />
         <option value="$PROJECT_DIR$/src/scss/sermon.scss" />
         <option value="$PROJECT_DIR$/src/scss/contact.scss" />
         <option value="$PROJECT_DIR$/src/Components/pages/Contact.js" />
@@ -156,8 +156,9 @@
         <option value="$PROJECT_DIR$/src/index.scss" />
         <option value="$PROJECT_DIR$/src/Components/pages/App.js" />
         <option value="$PROJECT_DIR$/src/Components/sections/homepage/Ad.js" />
-        <option value="$PROJECT_DIR$/src/scss/gallery.scss" />
         <option value="$PROJECT_DIR$/src/Components/pages/Gallery.js" />
+        <option value="$PROJECT_DIR$/src/scss/gallery.scss" />
+        <option value="$PROJECT_DIR$/src/Components/db/Database.js" />
       </list>
     </option>
   </component>
@@ -171,6 +172,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,6 +195,13 @@
               <item name="tpiechowicz" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tpiechowicz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tpiechowicz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tpiechowicz" type="b2602c69:ProjectViewProjectNode" />
@@ -239,7 +248,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,7 +301,8 @@
       <workItem from="1558113189605" duration="3562000" />
       <workItem from="1558165826380" duration="11663000" />
       <workItem from="1558447576289" duration="7276000" />
-      <workItem from="1558517311828" duration="3416000" />
+      <workItem from="1558517311828" duration="3506000" />
+      <workItem from="1558521634925" duration="2078000" />
     </task>
     <task id="LOCAL-00001" summary="Setup starting components">
       <created>1557776322830</created>
@@ -393,17 +402,24 @@
       <option name="project" value="LOCAL" />
       <updated>1558517331516</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Gallery part 1">
+      <created>1558521280192</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1558521280192</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49082000" />
+    <option name="totallyTimeSpent" value="51250000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4987715" visible="true" weight="0.21030043" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4987715" visible="true" weight="0.21316166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" sideWeight="0.5012285" side_tool="true" weight="0.27110156" />
@@ -496,7 +512,8 @@
     <MESSAGE value="Setup firebase &amp;&amp; handle form" />
     <MESSAGE value="Add hero bgs to components" />
     <MESSAGE value="Fix counter on page change" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix counter on page change" />
+    <MESSAGE value="Gallery part 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gallery part 1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/logo.svg" />
@@ -665,16 +682,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/db/Database.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/img/hero-section.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -767,16 +774,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/pages/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/sections/homepage/Ad.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-249">
@@ -784,24 +781,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/pages/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
           <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/scss/gallery.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="299">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/pages/Gallery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="-44">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/db/Database.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
