@@ -82,19 +82,19 @@ class Counter extends Component{
                             <div className="counter__content">
                                 <div className="counter__inner">
                                     <div className="counter__date">
-                                        <p className="counter__number counter__number--days">{this.counter}</p>
+                                        <p className="counter__number counter__number--days"></p>
                                         <p className="counter__label">Dni</p>
                                     </div>
                                     <div className="counter__date">
-                                        <p className="counter__number counter__number--hours">16</p>
+                                        <p className="counter__number counter__number--hours"></p>
                                         <p className="counter__label">Godzin</p>
                                     </div>
                                     <div className="counter__date">
-                                        <p className="counter__number counter__number--minutes">33</p>
+                                        <p className="counter__number counter__number--minutes"></p>
                                         <p className="counter__label">Minut</p>
                                     </div>
                                     <div className="counter__date">
-                                        <p className="counter__number counter__number--seconds">12</p>
+                                        <p className="counter__number counter__number--seconds"></p>
                                         <p className="counter__label">Sekund</p>
                                     </div>
                                 </div>

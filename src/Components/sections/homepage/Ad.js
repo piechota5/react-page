@@ -2,7 +2,7 @@ import React, {Fragment} from 'react';
 import icon_1 from '../../../img/ad-1-icon.png';
 import icon_2 from '../../../img/ad-2-icon.png';
 import icon_3 from '../../../img/ad-3-icon.png';
-
+import Copyright from "./Copyright";
 
 const Ad = () => {
   return(
@@ -142,6 +142,7 @@ const Ad = () => {
                 {/*<img src="./img/mbank__arrow-down.png" alt="">*/}
             </span>
           </section>
+          <Copyright/>
       </Fragment>
   );
 };
